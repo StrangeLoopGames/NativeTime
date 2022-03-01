@@ -1,6 +1,7 @@
 {
     "name": "NativeTime",
     "references": [
+        "Unity.Collections"
     ],
     "optionalUnityReferences": [],
     "includePlatforms": [

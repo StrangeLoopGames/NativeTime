@@ -8,5 +8,9 @@
   "keywords": [
     "NativeTime"
   ],
-  "type": "library"
+  "type": "library",
+  "dependencies": {
+    "com.unity.collections": "0.1.0"
+  },
+  "resolutionStrategy": "highest"
 }
