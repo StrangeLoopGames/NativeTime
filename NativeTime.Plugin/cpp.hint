@@ -1,0 +1,2 @@
+#define NATIVETIME_API __declspec(dllexport)
+#define NATIVETIME_API __declspec(dllimport)

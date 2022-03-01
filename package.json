@@ -1,0 +1,12 @@
+{
+  "name": "com.strangeloopgames.nativetime",
+  "displayName": "NativeTime",
+  "version": "0.1.0",
+  "unity": "2020.3",
+  "unityRelease": "0f1",
+  "description": "NativeTime",
+  "keywords": [
+    "NativeTime"
+  ],
+  "type": "library"
+}

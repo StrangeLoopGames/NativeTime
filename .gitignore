@@ -1,0 +1,13 @@
+﻿/.idea
+/.vs
+/NativeTime.Plugin/NativeTime.Plugin.vcxproj.user
+/NativeTime/bin
+/NativeTime/obj
+/NativeTime.Plugin/bin
+/NativeTime.Plugin/obj
+/Runtime/Plugins/*/*.lib
+/Runtime/Plugins/*/*.exp
+/Runtime/Plugins/*/*.pdb
+/cmake-build-debug
+/cmake-build-release
+*.meta
