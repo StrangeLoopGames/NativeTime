@@ -20,8 +20,28 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Plugins", "Plugins", "{AAA36D2A-6A46-4997-91F3-58947873E9B2}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "x86", "x86", "{21CE29B1-C45D-42CE-8DDB-1901E2F576FF}"
+	ProjectSection(SolutionItems) = preProject
+		Runtime\Plugins\x86\NativeTimeNative.dll = Runtime\Plugins\x86\NativeTimeNative.dll
+		Runtime\Plugins\x86\NativeTimeNative.dll.meta = Runtime\Plugins\x86\NativeTimeNative.dll.meta
+		Runtime\Plugins\x86\NativeTimeNative.exp = Runtime\Plugins\x86\NativeTimeNative.exp
+		Runtime\Plugins\x86\NativeTimeNative.exp.meta = Runtime\Plugins\x86\NativeTimeNative.exp.meta
+		Runtime\Plugins\x86\NativeTimeNative.lib = Runtime\Plugins\x86\NativeTimeNative.lib
+		Runtime\Plugins\x86\NativeTimeNative.lib.meta = Runtime\Plugins\x86\NativeTimeNative.lib.meta
+		Runtime\Plugins\x86\NativeTimeNative.pdb = Runtime\Plugins\x86\NativeTimeNative.pdb
+		Runtime\Plugins\x86\NativeTimeNative.pdb.meta = Runtime\Plugins\x86\NativeTimeNative.pdb.meta
+	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "x86_64", "x86_64", "{AFF56142-A429-4228-AC3C-B0C5D4635869}"
+	ProjectSection(SolutionItems) = preProject
+		Runtime\Plugins\x86_64\NativeTimeNative.dll = Runtime\Plugins\x86_64\NativeTimeNative.dll
+		Runtime\Plugins\x86_64\NativeTimeNative.dll.meta = Runtime\Plugins\x86_64\NativeTimeNative.dll.meta
+		Runtime\Plugins\x86_64\NativeTimeNative.exp = Runtime\Plugins\x86_64\NativeTimeNative.exp
+		Runtime\Plugins\x86_64\NativeTimeNative.exp.meta = Runtime\Plugins\x86_64\NativeTimeNative.exp.meta
+		Runtime\Plugins\x86_64\NativeTimeNative.lib = Runtime\Plugins\x86_64\NativeTimeNative.lib
+		Runtime\Plugins\x86_64\NativeTimeNative.lib.meta = Runtime\Plugins\x86_64\NativeTimeNative.lib.meta
+		Runtime\Plugins\x86_64\NativeTimeNative.pdb = Runtime\Plugins\x86_64\NativeTimeNative.pdb
+		Runtime\Plugins\x86_64\NativeTimeNative.pdb.meta = Runtime\Plugins\x86_64\NativeTimeNative.pdb.meta
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

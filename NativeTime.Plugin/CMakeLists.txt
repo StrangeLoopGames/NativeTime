@@ -1,6 +1,6 @@
 include_directories(PluginAPI)
 
-add_library(NativeTimeoNative SHARED
+add_library(NativeTimeNative SHARED
         PluginAPI/IUnityEventQueue.h
         PluginAPI/IUnityGraphics.h
         PluginAPI/IUnityGraphicsD3D11.h
@@ -14,7 +14,7 @@ add_library(NativeTimeoNative SHARED
         framework.h
         NativeTime.cpp
         NativeTime.h
-        DirectX11.cpp
+        Windows.cpp
         Osx.cpp
 )
 
@@ -22,10 +22,6 @@ if (APPLE)
     target_precompile_headers(NativeTimeNative PRIVATE $<$<COMPILE_LANGUAGE:OBJC>:pch.h>)
 else()
     target_precompile_headers(NativeTimeNative PRIVATE pch.h)
-endif()
-
-if (WIN32)
-    target_sources(NativeTimeNative PRIVATE dllmain.cpp)
 endif()
 
 if (APPLE)

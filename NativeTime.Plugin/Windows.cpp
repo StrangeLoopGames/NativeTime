@@ -19,7 +19,7 @@ extern "C" int64_t UNITY_INTERFACE_EXPORT UNITY_INTERFACE_API GetTimestamp()
 
 	LARGE_INTEGER time;
 	QueryPerformanceCounter(&time);
-	time.QuadPart *= 1000000;
+	time.QuadPart *= 10000000;
 	time.QuadPart /= s_frequency.QuadPart;
 	return time.QuadPart;
 }
