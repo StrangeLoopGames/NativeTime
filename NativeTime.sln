@@ -1,0 +1,75 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32210.238
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Runtime", "Runtime", "{F40EA770-D7FF-4C44-84EF-F281622D6FC0}"
+	ProjectSection(SolutionItems) = preProject
+		Runtime\NativeTime.cs = Runtime\NativeTime.cs
+		Runtime\StrangeLoopGames.NativeTime.Runtime.asmdef = Runtime\StrangeLoopGames.NativeTime.Runtime.asmdef
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "NativeTime", "NativeTime", "{A7E3F065-2DE0-4BE2-B580-7D447C05BCDB}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		package.json = package.json
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "NativeTime.Plugin", "NativeTime.Plugin\NativeTime.Plugin.vcxproj", "{A20656BB-F143-45E8-A067-58E7A1EE36E1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Plugins", "Plugins", "{AAA36D2A-6A46-4997-91F3-58947873E9B2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "x86", "x86", "{21CE29B1-C45D-42CE-8DDB-1901E2F576FF}"
+	ProjectSection(SolutionItems) = preProject
+		Runtime\Plugins\x86\NativeTimeNative.dll = Runtime\Plugins\x86\NativeTimeNative.dll
+		Runtime\Plugins\x86\NativeTimeNative.dll.meta = Runtime\Plugins\x86\NativeTimeNative.dll.meta
+		Runtime\Plugins\x86\NativeTimeNative.exp = Runtime\Plugins\x86\NativeTimeNative.exp
+		Runtime\Plugins\x86\NativeTimeNative.exp.meta = Runtime\Plugins\x86\NativeTimeNative.exp.meta
+		Runtime\Plugins\x86\NativeTimeNative.lib = Runtime\Plugins\x86\NativeTimeNative.lib
+		Runtime\Plugins\x86\NativeTimeNative.lib.meta = Runtime\Plugins\x86\NativeTimeNative.lib.meta
+		Runtime\Plugins\x86\NativeTimeNative.pdb = Runtime\Plugins\x86\NativeTimeNative.pdb
+		Runtime\Plugins\x86\NativeTimeNative.pdb.meta = Runtime\Plugins\x86\NativeTimeNative.pdb.meta
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "x86_64", "x86_64", "{AFF56142-A429-4228-AC3C-B0C5D4635869}"
+	ProjectSection(SolutionItems) = preProject
+		Runtime\Plugins\x86_64\NativeTimeNative.dll = Runtime\Plugins\x86_64\NativeTimeNative.dll
+		Runtime\Plugins\x86_64\NativeTimeNative.dll.meta = Runtime\Plugins\x86_64\NativeTimeNative.dll.meta
+		Runtime\Plugins\x86_64\NativeTimeNative.exp = Runtime\Plugins\x86_64\NativeTimeNative.exp
+		Runtime\Plugins\x86_64\NativeTimeNative.exp.meta = Runtime\Plugins\x86_64\NativeTimeNative.exp.meta
+		Runtime\Plugins\x86_64\NativeTimeNative.lib = Runtime\Plugins\x86_64\NativeTimeNative.lib
+		Runtime\Plugins\x86_64\NativeTimeNative.lib.meta = Runtime\Plugins\x86_64\NativeTimeNative.lib.meta
+		Runtime\Plugins\x86_64\NativeTimeNative.pdb = Runtime\Plugins\x86_64\NativeTimeNative.pdb
+		Runtime\Plugins\x86_64\NativeTimeNative.pdb.meta = Runtime\Plugins\x86_64\NativeTimeNative.pdb.meta
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A20656BB-F143-45E8-A067-58E7A1EE36E1}.Debug|x64.ActiveCfg = Debug|x64
+		{A20656BB-F143-45E8-A067-58E7A1EE36E1}.Debug|x64.Build.0 = Debug|x64
+		{A20656BB-F143-45E8-A067-58E7A1EE36E1}.Debug|x86.ActiveCfg = Debug|Win32
+		{A20656BB-F143-45E8-A067-58E7A1EE36E1}.Debug|x86.Build.0 = Debug|Win32
+		{A20656BB-F143-45E8-A067-58E7A1EE36E1}.Release|x64.ActiveCfg = Release|x64
+		{A20656BB-F143-45E8-A067-58E7A1EE36E1}.Release|x64.Build.0 = Release|x64
+		{A20656BB-F143-45E8-A067-58E7A1EE36E1}.Release|x86.ActiveCfg = Release|Win32
+		{A20656BB-F143-45E8-A067-58E7A1EE36E1}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F40EA770-D7FF-4C44-84EF-F281622D6FC0} = {A7E3F065-2DE0-4BE2-B580-7D447C05BCDB}
+		{AAA36D2A-6A46-4997-91F3-58947873E9B2} = {F40EA770-D7FF-4C44-84EF-F281622D6FC0}
+		{21CE29B1-C45D-42CE-8DDB-1901E2F576FF} = {AAA36D2A-6A46-4997-91F3-58947873E9B2}
+		{AFF56142-A429-4228-AC3C-B0C5D4635869} = {AAA36D2A-6A46-4997-91F3-58947873E9B2}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AC167F6C-26D0-4962-BF31-2BEF87E19DDD}
+	EndGlobalSection
+EndGlobal
