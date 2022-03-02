@@ -192,6 +192,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="framework.h" />
+    <ClInclude Include="Linux.cpp" />
     <ClInclude Include="pch.h" />
     <ClInclude Include="PlatformBase.h" />
     <ClInclude Include="PluginAPI\IUnityEventQueue.h" />

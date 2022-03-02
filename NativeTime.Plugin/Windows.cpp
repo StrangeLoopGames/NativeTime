@@ -5,23 +5,22 @@
 #include "NativeTime.h"
 #include "IUnityInterface.h"
 
-#include <windows.h>
-#include <profileapi.h>
+static uint64_t s_frequency = 0;
 
-static LARGE_INTEGER s_frequency = LARGE_INTEGER();
-
-extern "C" int64_t UNITY_INTERFACE_EXPORT UNITY_INTERFACE_API GetTimestamp()
+extern "C" void UNITY_INTERFACE_EXPORT UNITY_INTERFACE_API Init()
 {
-	if (s_frequency.QuadPart == 0)
-	{
-		QueryPerformanceFrequency(&s_frequency);
-	}
+	LARGE_INTEGER frequency;
+	QueryPerformanceFrequency(&frequency);
+	s_frequency = frequency.QuadPart;
+}
 
+extern "C" uint64_t UNITY_INTERFACE_EXPORT UNITY_INTERFACE_API GetTimestampNs()
+{
 	LARGE_INTEGER time;
 	QueryPerformanceCounter(&time);
-	time.QuadPart *= 10000000;
-	time.QuadPart /= s_frequency.QuadPart;
-	return time.QuadPart;
+	uint64_t elapsed = time.QuadPart;
+	
+	return elapsed * SecondsToNanoSeconds / s_frequency;
 }
 
 #endif

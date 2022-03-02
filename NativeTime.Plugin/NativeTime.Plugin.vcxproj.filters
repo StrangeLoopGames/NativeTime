@@ -41,6 +41,7 @@
       <Filter>PluginAPI</Filter>
     </ClInclude>
     <ClInclude Include="PlatformBase.h" />
+    <ClInclude Include="Linux.cpp" />
   </ItemGroup>
   <ItemGroup>
     <None Include="cpp.hint" />
