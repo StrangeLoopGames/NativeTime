@@ -20,7 +20,7 @@ namespace StrangeLoopGames.NativeTime
     [BurstCompatible]
     public struct ValueStopwatch
     {
-        static const int TicksToNanoseconds = 100;
+        public const int TicksToNanoseconds = 100;
         ulong start;
 
         /// <summary> Returns the number of nanoseconds since system startup. </summary>
