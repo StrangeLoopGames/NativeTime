@@ -7,8 +7,21 @@
 #ifndef PCH_H
 #define PCH_H
 
-// add headers that you want to pre-compile here
-#include "framework.h"
 #include "PlatformBase.h"
+
+#ifdef UNITY_WIN
+#include <windows.h>
+#include <profileapi.h>
+
+#elif UNITY_OSX
+#include <time.h>
+
+#elif UNITY_LINUX
+#define _POSIX_C_SOURCE 199309L
+#include <time.h>
+
+#else
+#error "Unsupported platform"
+#endif
 
 #endif //PCH_H

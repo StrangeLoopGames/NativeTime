@@ -14,4 +14,8 @@
 #define NATIVETIME_API __declspec(dllimport)
 #endif
 
-extern "C" int64_t UNITY_INTERFACE_EXPORT UNITY_INTERFACE_API GetTimestamp();
+const int SecondsToMicroSeconds = 1000000;
+const int SecondsToNanoSeconds = 1000000000;
+
+extern "C" void UNITY_INTERFACE_EXPORT UNITY_INTERFACE_API Init();
+extern "C" uint64_t UNITY_INTERFACE_EXPORT UNITY_INTERFACE_API GetTimestampNs();

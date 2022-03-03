@@ -12,7 +12,11 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "NativeTime", "NativeTime", "{A7E3F065-2DE0-4BE2-B580-7D447C05BCDB}"
 	ProjectSection(SolutionItems) = preProject
 		.gitignore = .gitignore
+		appveyor.yml = appveyor.yml
+		CMakeLists.txt = CMakeLists.txt
+		LICENSE = LICENSE
 		package.json = package.json
+		README.md = README.md
 	EndProjectSection
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "NativeTime.Plugin", "NativeTime.Plugin\NativeTime.Plugin.vcxproj", "{A20656BB-F143-45E8-A067-58E7A1EE36E1}"
