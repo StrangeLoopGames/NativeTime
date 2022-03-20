@@ -1,14 +1,14 @@
 {
   "name": "com.strangeloopgames.nativetime",
   "displayName": "NativeTime",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "unity": "2020.3",
   "author": {
     "name": "Strange Loop Games",
     "email": "simon@strangeloopgames.com",
     "url": "https://github.com/StrangeLoopGames/NativeTime"
   },
-  "description": "NativeTime is a bust compatible high resolution timer",
+  "description": "NativeTime is a burst compatible high resolution timer",
   "keywords": [
     "NativeTime",
     "stopwatch",
@@ -18,5 +18,13 @@
   "dependencies": {
     "com.unity.collections": "0.1.0"
   },
-  "resolutionStrategy": "highest"
+  "resolutionStrategy": "highest",
+  "files": [
+	  "LICENSE",
+	  "LICENSE.meta",
+	  "README.md",
+	  "README.md.meta",
+	  "Runtime.meta",
+	  "Runtime/*"  
+  ]
 }
