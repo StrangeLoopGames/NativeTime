@@ -21,7 +21,9 @@
   "resolutionStrategy": "highest",
   "files": [
 	  "LICENSE",
-	  "LICENSE.meta",
+    "LICENSE.meta",
+    "package.json",
+    "package.json.meta",
 	  "README.md",
 	  "README.md.meta",
 	  "Runtime.meta",
