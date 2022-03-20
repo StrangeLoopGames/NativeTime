@@ -14,6 +14,9 @@ extern "C" void UNITY_INTERFACE_EXPORT UNITY_INTERFACE_API
 UnityPluginLoad(IUnityInterfaces * unityInterfaces)
 {
     s_UnityInterfaces = unityInterfaces;
+
+    // Initialise the plugin
+    Init();
 }
 
 // Unity plugin unload event
