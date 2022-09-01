@@ -6,7 +6,7 @@ namespace StrangeLoopGames.NativeTime
 {
     internal class NativeTimeInternal
     {
-#if UNITY_STANDALONE_WIN || UNITY_EDITOR_WIN || UNITY_STANDALONE_OSX || UNITY_EDITOR_OSX || UNITY_STANDALONE_LINUX || UNITY_EDITOR_LINUX
+#if UNITY_STANDALONE_WIN || UNITY_EDITOR_WIN //|| UNITY_STANDALONE_OSX || UNITY_EDITOR_OSX || UNITY_STANDALONE_LINUX || UNITY_EDITOR_LINUX
         [DllImport("NativeTimeNative")]
         public static extern ulong GetTimestampNs();
 #else
