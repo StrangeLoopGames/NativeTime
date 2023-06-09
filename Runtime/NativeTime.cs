@@ -11,13 +11,13 @@ namespace StrangeLoopGames.NativeTime
         public static extern ulong GetTimestampNs();
 #else
         /// <summary> Fallback for unsupported platform </summary>
-        [BurstCompatible]
+        [GenerateTestsForBurstCompatibility]
         public static ulong GetTimestampNs() { return 0; }
 #endif
     }
 
     /// <summary>A burst compatible Stopwatch. Similar to <see cref="Stopwatch"/>.</summary>
-    [BurstCompatible]
+    [GenerateTestsForBurstCompatibility]
     public struct ValueStopwatch
     {
         public const ulong TicksToNanoseconds = 100;
