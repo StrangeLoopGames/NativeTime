@@ -6,7 +6,7 @@
   "author": {
     "name": "Strange Loop Games",
     "email": "jordan@strangeloopgames.com",
-    "url": "https://github.com/StrangeLoopGames/com.strangeloopgames.nativetime"
+    "url": "https://github.com/StrangeLoopGames/NativeTime"
   },
   "description": "NativeTime is a burst compatible high resolution timer",
   "keywords": [
