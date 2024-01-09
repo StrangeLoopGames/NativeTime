@@ -5,8 +5,8 @@
   "unity": "2020.3",
   "author": {
     "name": "Strange Loop Games",
-    "email": "simon@strangeloopgames.com",
-    "url": "https://github.com/StrangeLoopGames/NativeTime"
+    "email": "jordan@strangeloopgames.com",
+    "url": "https://github.com/StrangeLoopGames/com.strangeloopgames.nativetime"
   },
   "description": "NativeTime is a burst compatible high resolution timer",
   "keywords": [
@@ -20,13 +20,13 @@
   },
   "resolutionStrategy": "highest",
   "files": [
-	  "LICENSE",
-    "LICENSE.meta",
-    "package.json",
-    "package.json.meta",
-	  "README.md",
-	  "README.md.meta",
-	  "Runtime.meta",
-	  "Runtime/*"  
+	"LICENSE",
+    	"LICENSE.meta",
+    	"package.json",
+    	"package.json.meta",
+	"README.md",
+	"README.md.meta",
+	"Runtime.meta",
+	"Runtime/*"  
   ]
 }
