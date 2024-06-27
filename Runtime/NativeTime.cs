@@ -11,7 +11,7 @@ namespace StrangeLoopGames.NativeTime
         public static extern ulong GetTimestampNs();
 #else
         /// <summary> Fallback for unsupported platform </summary>
-    #if UNITY_2022_OR_NEWER
+    #if UNITY_2022_1_OR_NEWER
     [GenerateTestsForBurstCompatibility]
     #else
     [BurstCompatible]
@@ -21,7 +21,7 @@ namespace StrangeLoopGames.NativeTime
     }
 
     /// <summary>A burst compatible Stopwatch. Similar to <see cref="Stopwatch"/>.</summary>
-    #if UNITY_2022_OR_NEWER
+    #if UNITY_2022_1_OR_NEWER
     [GenerateTestsForBurstCompatibility]
     #else
     [BurstCompatible]
