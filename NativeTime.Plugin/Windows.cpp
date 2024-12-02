@@ -5,7 +5,7 @@
 #include "NativeTime.h"
 #include "IUnityInterface.h"
 
-static uint64_t s_frequency = 0;
+static uint64_t s_frequency = 1;
 
 extern "C" void UNITY_INTERFACE_EXPORT UNITY_INTERFACE_API Init()
 {
